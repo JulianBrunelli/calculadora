@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <main>
+        <h1>Calculadora</h1>
+        <div class="container-calculadora">
+            <p id="resultado"></p>
+            <div class="inputs-calculadora">
+                <input type="number" id="primer-numero" required>
+                <input type="number" id="segundo-numero" required>
+            </div>
+            <div class="simbolos-calculadora">
+                <button id="dividir" onclick="dividir()">/</button>
+                <button id="multiplicar" onclick="multiplicar()">*</button>
+                <button id="restar" onclick="restar()">-</button>
+                <button id="sumar" onclick="sumar()">+</button>
+            </div>
+        </div>
+    </main>
+    <script src=" assets/scripts/index.js"></script>
+</body>
+
+</html>
